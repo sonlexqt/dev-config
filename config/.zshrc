@@ -109,7 +109,7 @@ zsh-autosuggestions
 # aliases
 alias k="kubectl"
 
-# python
+# ruby
 eval "$(rbenv init -)"
 
 # nvm
