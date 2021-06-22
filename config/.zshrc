@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 # powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # plugins
 plugins=(
@@ -72,4 +73,7 @@ export PATH=$PATH:$GOPATH/bin
 # flutter
 export FLUTTER_PATH=$HOME/flutter
 export PATH="$PATH:$FLUTTER_PATH/bin"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# pip
+export PYTHON_PATH=$HOME/Library/Python/2.7
+export PATH="$PATH:$PYTHON_PATH/bin"
