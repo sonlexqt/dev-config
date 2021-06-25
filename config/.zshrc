@@ -47,6 +47,7 @@ alias tl="tmux ls"
 alias ta="tmux attach"
 alias td="tmux detach"
 alias tkill="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' | fzy); do tmux kill-session -t \$s; done;"
+alias tselect="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' | fzy); do tmux attach-session -t \$s; done;"
 
 # ruby
 eval "$(rbenv init -)"
