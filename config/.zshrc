@@ -44,6 +44,7 @@ function tat {
 
 # aliases
 alias k="kubectl"
+alias tf="terraform"
 alias tl="tmux ls"
 alias ta="tmux attach"
 alias td="tmux detach"
