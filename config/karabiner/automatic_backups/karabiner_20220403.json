@@ -152,19 +152,6 @@
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": []
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 835,
-                        "vendor_id": 1452
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -194,7 +181,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "mission_control"
+                            "consumer_key_code": "volume_decrement"
                         }
                     ]
                 },
@@ -204,7 +191,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "launchpad"
+                            "consumer_key_code": "volume_increment"
                         }
                     ]
                 },
@@ -214,7 +201,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_top_case_key_code": "illumination_down"
+                            "consumer_key_code": "mute"
                         }
                     ]
                 },
@@ -224,7 +211,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_top_case_key_code": "illumination_up"
+                            "apple_vendor_top_case_key_code": "illumination_down"
                         }
                     ]
                 },
@@ -234,7 +221,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "rewind"
+                            "apple_vendor_top_case_key_code": "illumination_up"
                         }
                     ]
                 },
@@ -244,7 +231,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "play_or_pause"
+                            "key_code": "fn"
                         }
                     ]
                 },
@@ -254,7 +241,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "fast_forward"
+                            "key_code": "fn"
                         }
                     ]
                 },
@@ -264,7 +251,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "mute"
+                            "key_code": "fn"
                         }
                     ]
                 },
@@ -274,7 +261,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "volume_decrement"
+                            "key_code": "fn"
                         }
                     ]
                 },
@@ -284,7 +271,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "volume_increment"
+                            "key_code": "fn"
                         }
                     ]
                 }
